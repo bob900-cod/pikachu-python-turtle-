@@ -13,7 +13,7 @@ class Draw_Pikachu:
         self.t = turtle.Turtle()
         t = self.t
         t.pensize(3)
-        t.speed(90)
+        t.speed(10)
         t.ondrag(setup)
 
     def meme(self, x, y):
